@@ -63,7 +63,7 @@ if __name__ == "__main__":
     try:
         # 사용자로부터 입력 받기
         image_path = "C:/Users/lej55/Downloads/새 폴더/화장대.jpg"  # 첫 번째 인자: 이미지 경로
-        model_path = "C:/Users/lej55/ssdamssdam/models/best_trained_model_v6.pth"  # 두 번째 인자: 모델 경로
+        model_path = "C:/Users/lej55/ssdamssdam/models/best_trained_model_fin.pth"  # 두 번째 인자: 모델 경로
         
         # 예측 수행
         pred_class, entropy = predict(image_path, model_path)
@@ -72,6 +72,6 @@ if __name__ == "__main__":
         predicted_class_name = class_names[pred_class]
         
         # 결과 출력
-        print(f"Predicted Class: {predicted_class_name}, Entropy: {entropy:.2f}")  # 품목명, 엔트로피 출력
+        print(f"Predicted Class: {predicted_class_name}, Entropy: {entropy}")  # 품목명, 엔트로피 출력
     except Exception as e:
         print(f"Error: {str(e)}")
