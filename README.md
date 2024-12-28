@@ -1,4 +1,2 @@
 # Ssdam_AI
-<p align="center">
-  <img src="https://github.com/user-attachments/files/18265194/-.pdf">
-</p>
+[피프-최종발표.pdf](https://github.com/user-attachments/files/18265194/-.pdf)
